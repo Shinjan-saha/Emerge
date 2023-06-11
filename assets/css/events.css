@@ -37,7 +37,7 @@ background: #000235;
         color: white;
         font-family: Arial, sans-serif;
         flex: 0 0 auto;
-        background-image: url("./images/neon.png");
+        background-image: url("./images/blue.png");
         /* overflow: auto;
         display: flex;
         scroll-snap-type:  x mandatory; */
@@ -64,7 +64,7 @@ background: #000235;
         color: white;
         font-family: Arial, sans-serif;
         flex: 0 0 auto;
-        background-image: url("./images/neon.png");
+        background-image: url("./images/blue.png");
         /* overflow: auto;
         display: flex;
         scroll-snap-type:  x mandatory; */
@@ -464,7 +464,7 @@ ul {
         color: white;
         font-family: Arial, sans-serif;
         flex: 0 0 auto;
-        background-image: url("./images/neon.png");
+        background-image: url("./images/blue.png");
         /* overflow: auto;
         display: flex;
         scroll-snap-type:  x mandatory; */
