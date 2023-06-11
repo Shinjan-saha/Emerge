@@ -1,5 +1,8 @@
 # Emerge
+
 Website For Departmental Fest of ECE
+<img align="centre" width="250" src="./assets/css/images/Emerge colored.png">
+
 
 ## Tools & Language Used in the Website:-
 <ul>
