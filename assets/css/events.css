@@ -29,7 +29,7 @@ background: #000235;
         width: 300px;
         height: 300px;
         margin-right: 10px;
-/*         background-color: rgb(57, 59, 74); */
+        /* background-color: rgb(57, 59, 74); */
         border: 2px solid transparent;
         border-radius: 10px;
         animation: rgb-border 1s linear infinite alternate;
@@ -56,7 +56,7 @@ background: #000235;
         width: 300px;
         height: 300px;
         margin-right: 10px;
-/*         background-color: rgb(57, 59, 74); */
+        /* background-color: rgb(57, 59, 74); */
         border: 2px solid transparent;
         border-radius: 10px;
         animation: rgb-border 1s linear infinite alternate;
@@ -456,7 +456,7 @@ ul {
         width: 300px;
         height: 300px;
         margin-right: 10px;
-/*         background-color: rgb(57, 59, 74); */
+        /* background-color: rgb(57, 59, 74); */
         border: 2px solid transparent;
         border-radius: 10px;
         animation: rgb-border 1s linear infinite alternate;
@@ -526,4 +526,52 @@ ul {
       
       
       
+      /* list */
+      .agenda {
+        font-family: Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+      
+      .agenda-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .event {
+        display: flex;
+        margin-bottom: 10px;
+      }
+      
+      .event-time {
+        flex: 0 0 120px;
+        font-weight: bold;
+        color: rgb(3, 207, 207); /* Updated font color */
+      }
+      
+      .event-title {
+        margin: 0;
+        font-size: 18px;
+        color: rgb(3, 207, 207); /* Updated font color */
+      }
+      
+      .event-description {
+        margin-top: 5px;
+        font-size: 14px;
+      }
+      
+      .sub-events {
+        margin-top: 10px;
+        margin-left: 20px;
+        padding-left: 10px;
+        border-left: 1px solid #036cf5;
+        border-width: 5px;
+      }
+      
+      /* Hover effect for events */
+      .event:hover {
+        background-color: rgb(0, 11, 13);
+        cursor: pointer;
+      }
       
