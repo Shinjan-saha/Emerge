@@ -32,6 +32,29 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 			}
+			#cheerio-button {
+				position: fixed;
+				top: 20px;
+				left: 20px;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				background-color: white;
+				box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+				z-index: 9999;
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#cheerio-icon {
+				width: 24px;
+				height: 24px;
+				background-image: url('./assets/css/images/cherlogo.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
 		</style>
 	</head>
 	
@@ -55,11 +78,16 @@
 						</nav>
 					</header>
 	
-					<!-- Sun Button -->
+					
 <!-- Sun Button -->
 <a href="https://emerge2-0.vercel.app/" id="sun-button" onclick="toggleTheme()">
 	<div id="sun-icon"></div>
   </a>
+
+   <!-- Cheerio Button-->
+   <a href="https://cheerio-ece-farewell.vercel.app/" id="cheerio-button" onclick="toggleTheme()">
+	<div id="cheerio-icon"></div>
+</a>
   
 	
 					<!-- Footer -->
