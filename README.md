@@ -14,10 +14,10 @@ Website For Departmental Fest of ECE
 </ul>
 
 ## Preview Of Website in Desktop
-<img width="650" src="./img/newdes.png">
+<img width="650" src="./img/updarkcomp.png">
 
 ## Preview of Website in Mobile
-<img width="250" src="./img/newmob.jpg">
+<img width="250" src="./img/updarkmob.jpg">
 
 
 ## Visit The Website Here:-
