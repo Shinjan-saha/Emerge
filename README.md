@@ -1,3 +1,7 @@
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Shinjan-saha.Emerge)
+
+
 # Emerge
 
 Website For Departmental Fest of ECE
