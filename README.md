@@ -20,9 +20,9 @@ Website For Departmental Fest of ECE
 <img width="250" src="./img/updarkmob.jpg">
 
 
-## There is also a Light Verison of this Website visit to Know more 
 
 
+#### There is also a Light version of this website don't forget to visit it
 
 ## Visit The Website Here:-
 [Visit Here!](https://emerge-ece-tmsl.vercel.app/)
