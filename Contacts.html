@@ -10,12 +10,40 @@
 </head>
 <body>
     <style>
+        #sun-button {
+				position: fixed;
+				top: 20px;
+				right: 20px;
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+				background-color: white;
+				box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+				z-index: 9999;
+				cursor: pointer;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			#sun-icon {
+				width: 24px;
+				height: 24px;
+				background-image: url('./assets/css/images/sun-icon.png');
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
         body {
 background-image: url('./assets/css/images/269593.png');
             background-size: cover;
             background-repeat: no-repeat;
         }
     </style>
+
+    <!-- Sun Button -->
+<a href="https://emerge2-0.vercel.app/Contacts.html" id="sun-button" onclick="toggleTheme()">
+	<div id="sun-icon"></div>
+  </a>
 
   <div id="list">
     <div class="product">
