@@ -10,7 +10,10 @@
 </head>
 <body>
     <style>
-        #sun-button {
+        /* Your existing CSS styles here */
+
+        /* New styles for Gmail link */
+		#sun-button {
 				position: fixed;
 				top: 20px;
 				right: 20px;
@@ -61,8 +64,25 @@ background-image: url('./assets/css/images/269593.png');
             background-size: cover;
             background-repeat: no-repeat;
         }
+        .contact-link {
+            font-size: 20px;
+            color: rgb(3, 207, 207);
+            text-decoration: none;
+            border: 2px solid rgb(3, 207, 207);
+            border-radius: 8px;
+            padding: 10px 20px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-link:hover {
+            background-color: rgb(3, 207, 207);
+            color: white;
+        }
+
     </style>
-	    <!-- Cheerio Button-->
+     <!-- Cheerio Button-->
 		<a href="https://emerge-ece-tmsl.vercel.app/" id="cheerio-button" onclick="toggleTheme()">
 			<div id="cheerio-icon"></div>
 		  </a>
@@ -73,15 +93,11 @@ background-image: url('./assets/css/images/269593.png');
 	<div id="sun-icon"></div>
   </a>
 
-  <div id="list">
-    <div class="product">
-     <h1 style="color: rgb(3, 207, 207);">Contacts</h1>
-      <p style="color: rgb(3, 207, 207);"> <a href="mailto:hodece.tmsl@gmail.com" class="contact-link">hodece.tmsl@gmail.com</a></p>
-
-      
-          </div>
-          </div>
-          
-  
+    <div id="list">
+        <div class="product">
+            <h1 style="color: rgb(3, 207, 207);">Contacts</h1>
+            <p><a href="mailto:hodece.tmsl@gmail.com" class="contact-link">hodece.tmsl@gmail.com</a></p>
+        </div>
+    </div>
 </body>
 </html>
